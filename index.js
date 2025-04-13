@@ -3,7 +3,7 @@ const cors = require("cors");
 const fetch = require("node-fetch");
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 const AUTH_HEADERS = {
     Authorization: "Token 4e15396f99ae10dd5c195d81fb6a3722c0a44a10",
     "Content-Type": "application/json",

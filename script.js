@@ -2,11 +2,7 @@ let debounceTimer;
 let fuse = null;
 let fullData = [];
 
-const API_URL = 'https://botai.smartdataautomation.com/api_backend_ai/dinamic-db/report/119/Boydorr_PDVs';
-const AUTH_HEADERS = {
-    'Authorization': 'Token 4e15396f99ae10dd5c195d81fb6a3722c0a44a10',
-    'Content-Type': 'application/json'
-};
+const API_URL = 'boydorrlanding-production.up.railway.app/api/boydorr/pdv';
 
 // Cargar los datos de la API
 async function loadData() {

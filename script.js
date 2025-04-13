@@ -8,7 +8,7 @@ const API_URL = 'boydorrlanding-production.up.railway.app/api/boydorr/pdv';
 async function loadData() {
     try {
         console.log("Intentando cargar datos desde la API...");
-        const response = await fetch(API_URL, { headers: AUTH_HEADERS });
+        const response = await fetch(API_URL);
         
         if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
         

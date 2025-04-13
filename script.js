@@ -2,7 +2,7 @@ let debounceTimer;
 let fuse = null;
 let fullData = [];
 
-const API_URL = 'boydorrlanding-production.up.railway.app/api/boydorr/pdv';
+const API_URL = 'https://boydorrlanding-production.up.railway.app/api/boydorr/pdv';
 
 // Cargar los datos de la API
 async function loadData() {
